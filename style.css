@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+    body {
+        font-family: "poppins",sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+        background-blend-mode:overlay;
+        backdrop-filter: blur(2px);
+        background-image: url(cardano-blockchain-platform-collage.jpg);
+        background-size: cover;
+        
+    }
+    .container {
+        /* background: linear-gradient(to right, #ff7e5f, #feb47b); */
+        max-width: 800px;
+        margin: 50px auto;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        background-blend-mode:overlay;
+        backdrop-filter: blur(2px);
+        background-image: url(cardano-blockchain-platform-collage.jpg);
+        background-size: cover;
+        
+        
+        
+    }
+    .easymath{
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #f9f9f9;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center ;
+        text-align: center;
+        background-blend-mode:overlay;
+        backdrop-filter: blur(2px);
+        background-image: url(cardano-blockchain-platform-collage.jpg);
+        background-size: cover;
+        
+    }
+
+    .column {
+        width: 90%;
+
+    }
+
+    .input-group {
+        margin-bottom: 15px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    label {
+        display: block;
+        margin-bottom: 5px;
+        font-family: "poppins",sans-serif;
+     font-size: 25px;
+    }
+
+    input[type="number"] {
+        width: 100%;
+        padding: 8px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-sizing: border-box;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+
+    button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+    .result {
+        margin-top: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 95%;
+    }
+
+    .result.green {
+        background-color: lightgreen;
+        margin-right: 50px;
+    }
+
+    .result.blue {
+        background-color: lightblue;
+        margin-right: 50px;
+    }
+
+    .result.pink {
+        background-color: lightpink;
+        margin-right: 50px;
+    }
+
+
+     .calculator {
+            max-width: 400px;
+            margin: 50px auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            background-blend-mode:overlay;
+            backdrop-filter: blur(2px);
+            background-image: url(cardano-blockchain-platform-collage.jpg);
+            background-size: cover;
+            
+        }
+
+        h2 {
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        label {
+            margin-bottom: 5px;
+        }
+
+        input {
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        #result {
+            margin-top: 20px;
+            
+        }
+
+        .blue {
+            color: blue;
+            /* margin-top: 10px; */
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 95%;
+            background-color: lightblue;
+        }
+
+        .green {
+            color: green;
+            /* margin-top: 10px; */
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            width: 95%;
+            background-color: lightgreen;
+        }
