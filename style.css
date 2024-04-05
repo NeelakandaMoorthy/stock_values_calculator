@@ -211,32 +211,77 @@ flex-direction: column; */
             background-color: lightgreen;
         }
 
-        /* Extra small devices (phones, 600px and down) */
+      
+       /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .container {
-        margin: 30px auto;
+        margin: 30px 10px;
+        max-width: 75%;
     }
     .column {
-        width: 100%;
+        margin: 10px 10px;
     }
     .dic {
         flex-direction: row;
     }
     .input-group {
-        width: 100%;
-        float: none;
+        width: 130px;
+        float: left;
+    }
+    .input-group label{
+        font-size: 12px;
     }
     .calculator {
-        max-width: 90%;
-        margin: 20px auto;
+        max-width: 75%;
+        margin: 20px 10px;
     }
     input[type="number"] {
-        width: 100%;
+        width: 110px;
+        float: left;
     }
     .blue, .green {
-        width: 100%;
-        margin: 10px 0;
+        width: 75px;
+        margin: 10px 10px;
+        
     }
+    button{
+    width:110px ;
+    }
+    .column2{
+        padding: 1px;
+            }
+            .result {
+            
+                padding: 5pxpx;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+                width: 10px;
+            }
+            
+        
+            .result.green {
+                background-color: lightgreen;
+                margin: 0px 0px 10px 0px;
+                width: 50px;
+                overflow: scroll;
+
+            }
+    
+            .result.blue {
+                overflow: scroll;
+                background-color: lightblue;
+                margin: 0px 0px 10px 0px;
+                width: 50px;
+            }
+            
+            .result.pink {
+                overflow: scroll;
+             
+                background-color: lightpink;
+                margin: 0px 0px 10px 0px;
+                width: 30px;
+            
+            }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
