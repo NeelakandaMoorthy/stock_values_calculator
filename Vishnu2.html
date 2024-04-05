@@ -3,14 +3,16 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Results</title>
+<title>Stock Maarket Analytics Calculator</title>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style2.css">
 <script defar src="web2.js"></script>
 </head>
 <body>
 <div class="container">
     <div class="easymath">
-    <div class="column">
+        <div class="dic">
+    <div class="column">    
         <div class="input-group">
             <label for="highest">Enter Highest Value:</label>
             <input type="number" id="highest" placeholder="Enter highest value">
@@ -21,33 +23,36 @@
         </div>
         <button onclick="calculateResults()"><p>Enter</p></button>
     </div>
-    <div class="column">
+    <div class="column2">
         <div class="result" id="result1"></div>
         <div class="result" id="result2"></div>
         <div class="result" id="result3"></div>
     </div>
     </div>
-    
+    </div>
+  
 <div class="calculator">
     <h2>Stock Values Calculator</h2>
+    <div class="dic2"> 
     <form id="stockForm">
-        <label for="open">Open:</label>
-        <input type="number" id="open" name="open" required><br><br>
+        <!-- <label for="open">Open:</label> -->
+        <input type="number" id="open" name="open" required placeholder="Open value"><br>
 
-        <label for="high">High:</label>
-        <input type="number" id="high" name="high" required><br><br>
+        <!-- <label for="high">High:</label> -->
+        <input type="number" id="high" name="high" required placeholder="High value"><br>
 
-        <label for="low">Low:</label>
-        <input type="number" id="low" name="low" required><br><br>
+        <!-- <label for="low">Low:</label> -->
+        <input type="number" id="low" name="low" required placeholder="Low value"><br>
 
-        <label for="close">Close:</label>
-        <input type="number" id="close" name="close" required><br><br>
+        <!-- <label for="close">Close:</label>  -->
+        <input type="number" id="close" name="close" required placeholder="Close value"><br>
 
         <button type="button" onclick="calculateValues()"><p>Calculate</p></button>
     </form>
 
     <div id="result">
         <!-- Results will be displayed here -->
+    </div>
     </div>
 </div>
 </div>
