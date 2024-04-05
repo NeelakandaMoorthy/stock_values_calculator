@@ -3,6 +3,9 @@
 html{
     scroll-behavior: smooth;
 }
+
+
+
     body {
         font-family: "poppins",sans-serif;
         background-color: #f0f0f0;
@@ -16,7 +19,7 @@ html{
     }
     .container {
         /* background: linear-gradient(to right, #ff7e5f, #feb47b); */
-        max-width: 800px;
+        max-width: 100%;
         margin: 50px auto;
         background-color: #fff;
         padding: 20px;
@@ -25,6 +28,7 @@ html{
         text-align: center;
         background-blend-mode:overlay;
         backdrop-filter: blur(2px);
+        
         background-image: url(cardano-blockchain-platform-collage.jpg);
         background-size: cover;
         
@@ -52,19 +56,25 @@ html{
         width: 90%;
 
     }
+    .dic{
+        display: flex;
+        flex-direction:row;
+    }
 
     .input-group {
         margin-bottom: 15px;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
+        width: 200px;
+        float: left;
+       
+        
     }
 
     label {
         display: block;
         margin-bottom: 5px;
         font-family: "poppins",sans-serif;
-     font-size: 25px;
+     font-size: 15px;
+     float: left;
     }
 
     input[type="number"] {
@@ -80,7 +90,7 @@ html{
 
     button {
         display: block;
-        width: 100%;
+        width: 200px;
         padding: 10px;
         background-color: #007bff;
         color: #fff;
@@ -94,33 +104,42 @@ html{
         background-color: #0056b3;
     }
 
+    .column2{
+padding: 10px;
+    }
     .result {
-        margin-top: 10px;
-        padding: 10px;
+    
+        padding: 20px;
         border: 1px solid #ccc;
         border-radius: 5px;
-        width: 95%;
+        width: 80px;
     }
+    
 
     .result.green {
         background-color: lightgreen;
-        margin-right: 50px;
+        margin: 0px 0px 10px 3px;
+        width: 150px;
     }
 
     .result.blue {
         background-color: lightblue;
-        margin-right: 50px;
+        margin: 0px 0px 10px 3px;
+        width: 150px;
     }
-
+    
     .result.pink {
         background-color: lightpink;
-        margin-right: 50px;
+        margin: 0px 0px 10px 3px;
+        width: 130px;
+    
     }
 
 
      .calculator {
-            max-width: 400px;
-            margin: 50px auto;
+        height: 340px;
+            max-width: 500px;
+            margin: 20px auto;
             padding: 20px;
             border: 1px solid #ccc;
             border-radius: 5px;
@@ -135,12 +154,13 @@ html{
         h2 {
             text-align: center;
         }
-
-/*         form {
+/* 
+        form {
             display: flex;
-            flex-direction: column;
-        } */
-
+flex-direction: column; */
+        .dic2{
+            display: flex;
+        }
         label {
             margin-bottom: 5px;
         }
@@ -148,6 +168,7 @@ html{
         input {
             margin-bottom: 10px;
             padding: 5px;
+            width: 58px;
         }
 
         button {
@@ -169,21 +190,71 @@ html{
         }
 
         .blue {
+            margin-left: 20px;
             color: blue;
             /* margin-top: 10px; */
             padding: 10px;
             border: 1px solid #ccc;
             border-radius: 5px;
-            width: 95%;
+            width:110px;
             background-color: lightblue;
         }
 
         .green {
+            margin: 20px;
             color: green;
             /* margin-top: 10px; */
             padding: 10px;
             border: 1px solid #ccc;
             border-radius: 5px;
-            width: 95%;
+            width: 110px;
             background-color: lightgreen;
         }
+
+        /* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .container {
+        margin: 30px auto;
+    }
+    .column {
+        width: 100%;
+    }
+    .dic {
+        flex-direction: row;
+    }
+    .input-group {
+        width: 100%;
+        float: none;
+    }
+    .calculator {
+        max-width: 90%;
+        margin: 20px auto;
+    }
+    input[type="number"] {
+        width: 100%;
+    }
+    .blue, .green {
+        width: 100%;
+        margin: 10px 0;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    /* Add your specific styles here */
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    /* Add your specific styles here */
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    /* Add your specific styles here */
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    /* Add your specific styles here */
+}
