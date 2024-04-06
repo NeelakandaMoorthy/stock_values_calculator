@@ -212,17 +212,29 @@ flex-direction: column; */
         }
 
       
-       /* Extra small devices (phones, 600px and down) */
+/* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .container {
-        margin: 30px 10px;
-        max-width: 76%;
+        margin: 0px 0px;
+        width: 78%;
+        padding: 2px;
     }
+
     .column {
-        margin: 10px 10px;
+        margin: 10px 0px;
+        width: 150px;
+        float: left;
     }
     .dic {
         flex-direction: row;
+    }
+    h2{
+        margin: 2px 0px 4px 0px;
+    }
+    .easymath{
+        width: 270px;
+        margin: 0px 0px;
+    padding: 4px;
     }
     .input-group {
         width: 130px;
@@ -232,15 +244,17 @@ flex-direction: column; */
         font-size: 12px;
     }
     .calculator {
-        max-width: 75%;
-        margin: 20px 10px;
+        width: 68%;
+        margin: 2px 1px;
+        padding: 6px;
+        height: 320px;
     }
     input[type="number"] {
         width: 110px;
         float: left;
     }
     .blue, .green {
-        width: 75px;
+        width: 85px;
         margin: 10px 10px;
         
     }
@@ -251,35 +265,35 @@ flex-direction: column; */
         padding: 1px;
             }
             .result {
-            
-                padding: 5pxpx;
+            margin: 0;
+                padding: 5px;
                 border: 1px solid #ccc;
                 border-radius: 5px;
                 width: 10px;
             }
-            
+            #result{
+                margin: 0;
+            }
         
             .result.green {
                 background-color: lightgreen;
-                margin: 0px 0px 10px 0px;
-                width: 50px;
-                overflow: scroll;
+               
+                width: 85px;
+                margin: 10px 10px;
 
             }
     
             .result.blue {
                 overflow: scroll;
                 background-color: lightblue;
-                margin: 0px 0px 10px 0px;
-                width: 50px;
+                width: 85px;
+                margin: 10px 10px;
             }
             
             .result.pink {
-                overflow: scroll;
-             
                 background-color: lightpink;
-                margin: 0px 0px 10px 0px;
-                width: 30px;
+                  width: 85px;
+                margin: 10px 10px;
             
             }
 }
@@ -303,3 +317,4 @@ flex-direction: column; */
 @media only screen and (min-width: 1200px) {
     /* Add your specific styles here */
 }
+
