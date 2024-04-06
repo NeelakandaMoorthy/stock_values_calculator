@@ -211,7 +211,6 @@ flex-direction: column; */
             background-color: lightgreen;
         }
 
-      
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .container {
@@ -231,6 +230,9 @@ flex-direction: column; */
     h2{
         margin: 2px 0px 4px 0px;
     }
+    #stockForm{
+padding: 2px 2px 2px 40px;
+    }
     .easymath{
         width: 270px;
         margin: 0px 0px;
@@ -244,17 +246,17 @@ flex-direction: column; */
         font-size: 12px;
     }
     .calculator {
-        width: 68%;
+        width: 95%;
         margin: 2px 1px;
         padding: 6px;
-        height: 320px;
+        height: 300px;
     }
     input[type="number"] {
         width: 110px;
         float: left;
     }
     .blue, .green {
-        width: 85px;
+        width: 120px;
         margin: 10px 10px;
         
     }
@@ -273,12 +275,13 @@ flex-direction: column; */
             }
             #result{
                 margin: 0;
+                width: 120px;
             }
         
             .result.green {
                 background-color: lightgreen;
                
-                width: 85px;
+                width: 95px;
                 margin: 10px 10px;
 
             }
@@ -286,7 +289,7 @@ flex-direction: column; */
             .result.blue {
                 overflow: scroll;
                 background-color: lightblue;
-                width: 85px;
+                width: 95px;
                 margin: 10px 10px;
             }
             
@@ -317,4 +320,3 @@ flex-direction: column; */
 @media only screen and (min-width: 1200px) {
     /* Add your specific styles here */
 }
-
