@@ -120,6 +120,7 @@ padding: 10px;
         background-color: lightgreen;
         margin: 0px 0px 10px 3px;
         width: 150px;
+        
     }
 
     .result.blue {
@@ -211,7 +212,7 @@ flex-direction: column; */
             background-color: lightgreen;
         }
 
-/* Extra small devices (phones, 600px and down) */
+        /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .container {
         margin: 0px 0px;
